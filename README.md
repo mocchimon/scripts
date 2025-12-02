@@ -4,7 +4,7 @@ Hides offline followed channels
 
 
 ! Sep 11, 2024 https://kick.com hide offline followed channels
-kick.com##button:not(:has(.text-white))
+kick.com##button.text-left.justify-start:not(:has(.text-white))
 
 ! Sep 11, 2024 https://kick.com grey's out offline followed channels but still displays icon
 kick.com##.text-neutral-700.leading-\[1\.2\].font-bold.text-sm.truncate.shrink
